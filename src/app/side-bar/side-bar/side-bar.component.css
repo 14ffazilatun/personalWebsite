@@ -1,0 +1,77 @@
+/* Style the side column */
+.sidebar {
+    height:100%;
+    width:250px;
+    position:absolute;
+    left:0;
+    top:0;
+    padding-top:40px;
+    background-color: #5c638f;
+
+}
+/* postioning the side bar links */
+.sidebar a {
+    display:flex;
+    align-items:right;
+    flex-direction: column;
+    text-decoration:none;
+    color:rgb(239, 233, 233);
+    font-size:20px;
+    margin-top:10px;
+    padding-left:15px;
+    transform:translateY(225px)
+
+}
+/* change the color of links on hover  */
+ .link:hover {
+    background-color:#141415;
+    color:rgb(187, 180, 182);
+}
+/* The sidebar menu */
+.sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 350px; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+  
+  /* The sidebar links */
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    background-color: #111;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  /* Position and style the close button (top right corner) */
+  .sidebar .closebtn {
+    position:absolute;
+    top: 0px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #141415;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #111;
+  }

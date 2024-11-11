@@ -1,0 +1,15 @@
+<section id="sidebar">
+    @if (showContent==true) {
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" (click)="openNav()">&times;</a>
+            <a class="link" (click)="switchTab('homePage')" >Home</a>
+            <a class="link" (click)="switchTab('projectPage')">Projects</a>
+        </div>
+    }
+    @else {
+        <div  id="main">
+            <button class="openbtn" (click)="openNav()">&#9776;</button>
+            </div>
+    }
+   
+</section>

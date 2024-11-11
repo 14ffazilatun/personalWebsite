@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fida Fazilatun's Website</title>
+    
+</head>
+
+<body>
+ <!-- Top Navigation Bar -->
+ <section id="navbar">
+    <div id="topnav">
+        <side-bar-component (clickedTab)="setCurrentPage($event)"></side-bar-component>
+        <!-- <h3 style="color: white;margin: auto;">Fida's Website</h3> -->
+    </div> 
+</section>
+
+
+<!-- Side coulmn -->
+<app-home-page *ngIf="this.currentPage=='homePage'"></app-home-page>
+<app-project-page *ngIf="this.currentPage=='projectPage'"></app-project-page>
+
+</body>
+</html>

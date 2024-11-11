@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.parallax {
+    /* The image used */
+    background-image: url("../../assets/hiwall.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    /* The image used */
+    background-image: url("../../assets/hiwall.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #webtitle1{
+    display:block;
+    font-size:60px;
+    text-align:center;
+    padding-bottom: 15px;
+  
+  }
+
+  .bodytext{
+    display:flex;
+    align-content: center;
+    font-size: 55px;
+    text-align: center;
+}
