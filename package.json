@@ -1,7 +1,7 @@
 {
   "name": "fida-angular-project",
   "version": "0.0.0",
-  "homepage": "https://14ffazilatun.github.io/personalWebsite/",
+  "homepage": "https://14ffazilatun.github.io/personalWebsite",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
